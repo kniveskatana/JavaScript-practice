@@ -29,13 +29,17 @@ body{
 .editform{
     height: 400px;
     width: 90%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .congrats{
-    height:200px ;
-    width:500px ;
+    height:350px ;
+    width:700px ;
     position: absolute;
-    left: 200px;
+    left: 300px;
     top: 300px;
     display: none;
+    background-color: blue;
+    background-image: url("../Images/congrats2.jpg");
+    background-size: cover;
+    background-position: center;
 }
