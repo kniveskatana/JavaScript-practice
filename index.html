@@ -40,17 +40,19 @@
                 <p>Welcome to the third edition of the PUBRO CUP. In this year's edition, you will be assigned Akan
                     names which are default
                     gaming usernames. To be assigned an Akan name, please fill in your details in the form below</p>
-                <form class="editform">
+                <form class="editform bg-warning justify-content-around">
+                    <label>
+                        <h3>select date of birth</h3>
+                    </label>
                     <input class="p-3" type="date">
-                    <label>select date of birth</label>
                     <h3>Choose gender</h3>
                     <div>
-                        <input type="radio" name="gender">
-                        <label>Male</label>
-                        <input type="radio" name="gender">
-                        <label>Female</label>
+                        <input type="radio" name="gender" id="maleoption">
+                        <label for="maleoption">Male</label> <br>
+                        <input type="radio" name="gender" id="femaleoption">
+                        <label for="femaleoption">Female</label>
                     </div>
-                    <button class="p-2">Submit</button>
+                    <button>Submit</button>
                 </form>
             </div>
 
