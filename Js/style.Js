@@ -22,18 +22,20 @@ function formCollect(e) {
 
     const exactDay = exactDoW.toFixed();
     var open = document.querySelector("#akanNames");
-    if(nom.value == "female"){
-        var akanMale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+
+
+      var akanMale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
         var akanFemale =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
-        var akanName = akanMale[exactDay];
-console.log(akanName)
-        open.innerHTML = "Congratulations, your username is" + " " + akanFemale[exactDay];
-    open.innerHTML = "Congratulations, your username is" + " " + akanName;
-    
-    }if(nom.value == "male"){
-open.innerHTML = "Congratulations, your username is" + " " + akanName;
-    }
+        var akanMale1 = akanMale[exactDay];
+        var akanFemale1 = akanFemale[exactDay];
+
+        if(nom.value == "male"){
+            open.innerHTML = "congratulations your Akan name is " + "  " + akanMale1;
+        }else{
+            open.innerHTML = "congratulations your Akan name is " + "  " + akanFemale1;
+        }
+        
 
 
 }
