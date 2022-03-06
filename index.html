@@ -44,22 +44,24 @@
                     <label>
                         <h3>select date of birth</h3>
                     </label>
-                    <input class="p-3" type="date">
+                    <input class="p-3" type="date" required>
                     <h3>Choose gender</h3>
                     <div>
-                        <input type="radio" name="gender" id="maleoption">
+                        <input class="gender" type="radio" name="gender" id="maleoption" value="male">
                         <label for="maleoption">Male</label> <br>
-                        <input type="radio" name="gender" id="femaleoption">
+                        <input class="gender" type="radio" name="gender" id="femaleoption" value="female">
                         <label for="femaleoption">Female</label>
                     </div>
-                    <button>Submit</button>
+                    <button id="submit">Submit</button>
                 </form>
             </div>
 
 
         </div>
     </div>
-    <div class="congrats"></div>
+    <div class="congrats">
+        <h3 id="akanNames"></h3>
+    </div>
 
 
 
