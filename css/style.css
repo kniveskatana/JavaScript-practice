@@ -38,8 +38,14 @@ body{
     left: 300px;
     top: 300px;
     display: none;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     background-image: url("../Images/congrats2.jpg");
     background-size: cover;
     background-position: center;
+}
+#akanNames{
+    width: 75%;
+
 }
